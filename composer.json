@@ -1,0 +1,32 @@
+{
+    "name": "icekristal/laravel-drafts",
+    "description": "Laravel Drafts",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "icekristal",
+            "email": "savatneev-anton@mail.ru"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": "^8.1",
+        "laravel/framework": "^8|^9|^10"
+    },
+    "autoload": {
+        "psr-4": {
+            "Icekristal\\LaravelDraft\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Icekristal\\LaravelDraft\\DraftServiceProvider"
+            ],
+            "aliases": {
+                "IceTelegram": "Icekristal\\LaravelTelegram\\Facades\\IceTelegram"
+            }
+        }
+    }
+}
