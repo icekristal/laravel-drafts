@@ -2,7 +2,6 @@
 
 namespace Icekristal\LaravelDraft\Http\Resources;
 
-use App\Http\Resources\BaseResource;
 use Illuminate\Http\Request;
 
 /**
