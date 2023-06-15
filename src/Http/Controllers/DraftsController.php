@@ -4,9 +4,9 @@ namespace Icekristal\LaravelDraft\Http\Controllers;
 
 use App\Http\Controllers\Controller;
 use Icekristal\LaravelDraft\Facades\Draft;
-use Icekristal\LaravelDraft\Http\Draft\DeleteRequest;
-use Icekristal\LaravelDraft\Http\Draft\StoreRequest;
-use Icekristal\LaravelDraft\Http\Draft\UpdateRequest;
+use Icekristal\LaravelDraft\Http\Requests\DeleteRequest;
+use Icekristal\LaravelDraft\Http\Requests\StoreRequest;
+use Icekristal\LaravelDraft\Http\Requests\UpdateRequest;
 use Icekristal\LaravelDraft\Http\Resources\DraftResource;
 use Icekristal\LaravelDraft\Http\Resources\DraftsCollection;
 use Illuminate\Http\Request;
