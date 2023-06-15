@@ -1,6 +1,6 @@
 <?php
 
-namespace Icekristal\LaravelDraft\Http\Draft;
+namespace Icekristal\LaravelDraft\Http\Requests;
 
 
 use Illuminate\Validation\Rule;

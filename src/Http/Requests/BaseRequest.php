@@ -1,6 +1,6 @@
 <?php
 
-namespace Icekristal\LaravelDraft\Http\Draft;
+namespace Icekristal\LaravelDraft\Http\Requests;
 
 use Illuminate\Http\Response;
 use Illuminate\Foundation\Http\FormRequest;
