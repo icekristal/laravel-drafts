@@ -8,7 +8,7 @@ return new class extends Migration
 {
     public function up(): void
     {
-        Schema::create('service_telegram', function (Blueprint $table) {
+        Schema::create('drafts', function (Blueprint $table) {
             $table->bigIncrements('id');
             $table->morphs('owner');
             $table->string('key')->nullable();
