@@ -41,7 +41,7 @@ class StoreRequest extends BaseRequest
             'key' => ['required', 'string', 'min:1', 'max:255'],
             'info' => ['required', 'json'],
             'is_public' => ['filled', Rule::in([true, false, 0, 1])],
-            'now_count_drafts' => ['required', 'min:0', 'max:' . config('settings.limit_drafts_one_client')],
+            'now_count_drafts' => ['required', 'min:0', 'max:' . config('settings.limit_drafts_one_client', 200)],
         ];
     }
 }
